@@ -11,6 +11,12 @@ This project is a web application that allows users to choose one of three start
 - **Confirmation Dialog**: Users are asked to confirm their choice before finalizing their selection.
 - **Responsive Design**: The app is responsive, ensuring a seamless experience across various devices and screen sizes.
 
+## Screenshots
+
+![Screenshot 2024-02-14 234415](Screenshot_2024-02-14_234415.png)
+
+![Screenshot 2024-02-14 234436](Screenshot_2024-02-14_234436.png)
+
 ## Technologies Used
 
 - **React**: For building the user interface.
