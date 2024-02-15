@@ -13,8 +13,10 @@ This project is a web application that allows users to choose one of three start
 
 ## Screenshots
 
-![Alt text](URL_to_Screenshot_2024-02-14_234415.png "")
-![Alt text](URL_to_Screenshot_2024-02-14_234436.png "")
+![Screenshot 2024-02-14 234415](https://github.com/Kidus-berhanu/Pokemon-Challenge/blob/master/Screenshot%202024-02-14%20234415.png "Screenshot 1")
+
+![Screenshot 2024-02-14 234436](https://github.com/Kidus-berhanu/Pokemon-Challenge/blob/master/Screenshot%202024-02-14%20234436.png "Screenshot 2")
+
 
 
 ## Technologies Used
