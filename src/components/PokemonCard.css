@@ -1,0 +1,143 @@
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pokemon-image {
+    width: 100px; 
+    height: auto;
+  }
+  
+  .pokemon-name {
+    margin-top: 10px;
+  }
+  
+  .pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .pokemon-card {
+      width: 45%; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pokemon-card {
+      width: 90%; 
+    }
+  }
+  
+    .pokemon-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+.pokemon-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    border-color: #e1e1e1;
+  }
+  
+ 
+  .pokemon-card {
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pokemon-card img {
+    width: 100%;
+     
+    height: auto;
+    background-color: #eaeaea;
+  }
+  
+  .pokemon-card-details {
+    padding: 10px;
+    text-align: center;
+  }
+  .confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+    width: auto;
+    max-width: 400px; 
+  }
+  
+  .confirmation-modal p {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .confirmation-modal img {
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    width: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .confirmation-modal div {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .confirmation-modal button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .confirmation-modal button:hover {
+    opacity: 0.8;
+  }
+  
+  .confirmation-modal .yes-button {
+    background-color: #4CAF50; 
+    color: white;
+  }
+  
+  .confirmation-modal .no-button {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+ 
+  
+  
